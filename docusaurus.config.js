@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PSG2-2526-G2-25 Petclinic',
-  tagline: 'Aplicación web de gestión de clínica veterinaria - Universidad de Sevilla',
+  title: 'Petclinic PSG2-2526-G2-25',
+  tagline: 'Aplicación web de gestión de clínica veterinaria',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} PSG2-2526-G2-25 Petclinic - Universidad de Sevilla. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Petclinic PSG2-2526-G2-25. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
