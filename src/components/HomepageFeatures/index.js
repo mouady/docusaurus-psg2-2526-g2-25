@@ -4,42 +4,45 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Arquitectura Moderna SPA',
+    icon: '🏥',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Aplicación web con arquitectura Single Page Application utilizando
+        <strong> React 18</strong> en el frontend y <strong>Spring Boot 3</strong> 
+        con Java 21 en el backend. API REST con Spring Security y JWT.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Metodología Ágil',
+    icon: '🔄',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Desarrollo siguiendo <strong>Scrum</strong> con 4 sprints planificados.
+        Gestión en <strong>ZenHub</strong>, Git Flow para branching, 
+        y Conventional Commits para control de versiones.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Calidad y Testing',
+    icon: '✅',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Testing exhaustivo con <strong>JUnit</strong> y <strong>Jest</strong>.
+        Análisis de calidad con <strong>SonarQube</strong> y cobertura con 
+        <strong>JaCoCo</strong>. Despliegue con <strong>Docker</strong>.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({icon, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <div className={styles.featureIcon}>{icon}</div>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
