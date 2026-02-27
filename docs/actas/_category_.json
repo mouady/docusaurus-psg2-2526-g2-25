@@ -1,0 +1,8 @@
+{
+  "label": "Actas",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Actas de las reuniones del proyecto organizadas por sprints."
+  }
+}

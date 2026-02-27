@@ -83,7 +83,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Petclinic PSG2',
+        title: 'Petclinic PSG2-2526-G2-25',
         logo: {
           alt: 'Petclinic Logo',
           src: 'img/logo.svg',

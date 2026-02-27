@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introducción al Proyecto Petclinic
+# Introducción
 
 Bienvenido a la documentación del proyecto **PSG2-2526-G2-25 Petclinic** 🏥🐾
 
