@@ -20,10 +20,10 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://gii-is-psg2.github.io',
+  url: 'https://mouady.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/psg2-2526-g2-25/',
+  baseUrl: '/docusaurus-psg2-2526-g2-25/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
