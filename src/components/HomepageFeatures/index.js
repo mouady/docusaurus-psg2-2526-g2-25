@@ -4,32 +4,35 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Arquitectura Moderna SPA',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Aplicación web con arquitectura Single Page Application utilizando
+        <strong> React 18</strong> en el frontend y <strong>Spring Boot 3</strong> 
+        con Java 21 en el backend. API REST con Spring Security y JWT.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Metodología Ágil',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Desarrollo siguiendo <strong>Scrum</strong> con 4 sprints planificados.
+        Gestión en <strong>ZenHub</strong>, Git Flow para branching, 
+        y Conventional Commits para control de versiones.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Calidad y Testing',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Testing exhaustivo con <strong>JUnit</strong> y <strong>Jest</strong>.
+        Análisis de calidad con <strong>SonarQube</strong> y cobertura con 
+        <strong>JaCoCo</strong>. Despliegue con <strong>Docker</strong>.
       </>
     ),
   },

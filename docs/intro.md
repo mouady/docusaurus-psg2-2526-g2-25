@@ -2,46 +2,91 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introducción al Proyecto Petclinic
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bienvenido a la documentación del proyecto **PSG2-2526-G2-25 Petclinic** 🏥🐾
 
-## Getting Started
+## 📖 ¿Qué es Petclinic?
 
-Get started by **creating a new site**.
+Petclinic es una **aplicación web de gestión de clínica veterinaria** desarrollada como proyecto académico en el contexto de la asignatura **Proceso Software y Gestión II (PSG2)** del Grado en Ingeniería del Software de la Universidad de Sevilla.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Este proyecto es un fork del reconocido **spring-petclinic**, adaptado específicamente para enseñar y aplicar arquitecturas modernas de **Single Page Application (SPA)** utilizando:
 
-### What you'll need
+- **Backend:** Spring Boot, Java 21, Spring Security con JWT
+- **Frontend:** React 18.2.0, React Router, Bootstrap/Reactstrap
+- **Base de datos:** H2 (in-memory)
+- **Documentación API:** Swagger UI
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## 👥 Equipo de Desarrollo
 
-## Generate a new site
+El proyecto está siendo desarrollado por el **Grupo G2-25** del Laboratorio L2, integrado por 5 miembros:
 
-Generate a new Docusaurus site using the **classic template**.
+- **Mohamed Ahmed El Ouadih** (@mouady) - mohahmel@alum.us.es
+- **Manuel Duarte Álvarez** (@Madunguin) - manduaalv@alum.us.es
+- **Candelaria Olmos Payán** (@candeop) - canolmpay@alum.us.es
+- **Enrique Julio Purcell Cichy** (@enriquepc004) - enrpurcic@alum.us.es
+- **José Antonio Reina Navarro** (@JoseReina11) - josreinav@alum.us.es
 
-The classic template will automatically be added to your project after you run the command:
+## 🎯 Funcionalidades Principales
+
+La aplicación permite gestionar todos los aspectos de una clínica veterinaria:
+
+### Gestión de Pacientes
+- 👤 **Dueños:** Registro y gestión de propietarios de mascotas
+- 🐕 **Mascotas:** Gestión de información de animales (tipos, nombres, edades)
+
+### Gestión Médica
+- 👨‍⚕️ **Veterinarios:** Gestión de profesionales y sus especialidades
+- 📅 **Consultas:** Programación y seguimiento de citas
+- 🏥 **Visitas:** Registro de visitas médicas y tratamientos
+- 🎫 **Tickets:** Sistema de tickets para gestión administrativa
+
+### Gestión de Instalaciones
+- 🏢 **Clínicas:** Gestión de múltiples clínicas
+- 🚪 **Salas:** Gestión de salas de consulta
+- 👔 **Propietarios de Clínicas:** Administración de propietarios y permisos
+
+## 🛠️ Configuración del Entorno
+
+### Requisitos Previos
+
+- **Node.js** versión 20.0 o superior
+- **Java** 21
+- **Maven** para gestión de dependencias del backend
+- **Git** para control de versiones
+
+### Instalación del Backend
 
 ```bash
-npm init docusaurus@latest my-website classic
+# Clonar el repositorio principal
+git clone https://github.com/gii-is-psg2/psg2-2526-g2-25.git
+cd psg2-2526-g2-25
+
+# Compilar y ejecutar el backend
+./mvnw spring-boot:run
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+El backend estará disponible en: **http://localhost:8080**
+Swagger UI en: **http://localhost:8080/swagger-ui/index.html**
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+### Instalación del Frontend
 
 ```bash
-cd my-website
-npm run start
+# Navegar al directorio frontend
+cd frontend
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm start
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+El frontend estará disponible en: **http://localhost:3000**
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## 🔗 Enlaces Importantes
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- **Repositorio GitHub:** https://github.com/gii-is-psg2/psg2-2526-g2-25
+- **Backend Local:** http://localhost:8080
+- **Frontend Local:** http://localhost:3000
+- **API Documentation:** http://localhost:8080/swagger-ui/index.html

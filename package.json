@@ -1,6 +1,9 @@
 {
-  "name": "docusaurus-psg-2-2526-g-2-25",
-  "version": "0.0.0",
+  "name": "docusaurus-psg2-2526-g2-25",
+  "version": "1.0.0",
+  "description": "Documentación del proyecto PSG2-2526-G2-25 Petclinic - Universidad de Sevilla",
+  "author": "Grupo 2-25 PSG2",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
