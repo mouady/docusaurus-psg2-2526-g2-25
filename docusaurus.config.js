@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Petclinic PSG2-2526-G2-25. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Petclinic PSG2-2526-G2-25. Versión preS1-1. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
