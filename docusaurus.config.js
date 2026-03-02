@@ -52,21 +52,7 @@ const config = {
           editUrl:
             'https://github.com/gii-is-psg2/psg2-2526-g2-25/tree/main/docs/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/gii-is-psg2/psg2-2526-g2-25/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -95,7 +81,6 @@ const config = {
             position: 'left',
             label: 'Documentación',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/gii-is-psg2/psg2-2526-g2-25',
             label: 'GitHub',
@@ -129,7 +114,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Petclinic PSG2-2526-G2-25. Versión preS1-1. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Petclinic PSG2-2526-G2-25. Versión 1.0.0. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

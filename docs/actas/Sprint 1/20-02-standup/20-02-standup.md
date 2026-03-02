@@ -34,7 +34,7 @@ Acta correspondiente a la reunión de Standup del Sprint 1, celebrada el 20 de f
 | **Fecha** | 20 de febrero de 2026 |
 | **Tipo** | Standup |
 | **Sprint** | Sprint 1 |
-| **Asistentes** | Mohamed Ahmed El Ouadih<br />Manuel Duarte Álvarez<br />Candelaria Olmos Payán<br />Enrique Julio Purcell Cichy<br />José Antonio Reina Navarro |
+| **Asistentes** | Mohamed Ahmed El Ouadih<br/>Manuel Duarte Álvarez<br/>Candelaria Olmos Payán<br/>Enrique Julio Purcell Cichy<br/>José Antonio Reina Navarro |
 
 ## 2. Estado de desarrollo de tareas
 
