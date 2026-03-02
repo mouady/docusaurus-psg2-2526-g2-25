@@ -46,11 +46,11 @@ En esta retrospectiva del Sprint 1 se revisa el trabajo realizado por el equipo,
 ### 2.1. Neatro 
 Para identificar los puntos fuertes y débiles que hemos tenido a lo largo del Sprint 1, hemos decidido usar la página web Neatro, lo que nos ha permitido llegar a un consenso. En las imágenes adjuntas se pueden ver las opiniones de los miembros:
 
-<img src="../../../img/neatro1.jpeg" alt="Neatro 1" width="500" />
+![Neatro 1](../../../img/neatro1.jpeg)
 
-<img src="../../../img/neatro2.jpeg" alt="Neatro 2" width="500" />
+![Neatro 2](../../../img/neatro2.jpeg)
 
-<img src="../../../img/neatro3.jpeg" alt="Neatro 3" width="500" />
+![Neatro 3](../../../img/neatro3.jpeg)
 
 ### 2.2. Qué ha ido bien
 
